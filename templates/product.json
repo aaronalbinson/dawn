@@ -1,5 +1,11 @@
 {
   "sections": {
+    "1636239345c4d5949e": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\">\n<h2>{{ product.title }}<\/h2>\n<p>{{ product.description }}<\/p>\n<\/div>"
+      }
+    },
     "163623933635fab337": {
       "type": "rich-text",
       "blocks": {
@@ -99,6 +105,7 @@
     }
   },
   "order": [
+    "1636239345c4d5949e",
     "163623933635fab337",
     "main",
     "product-recommendations"
