@@ -61,13 +61,13 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>We love our planet, and now more than ever it's important that we start looking after our home. Our cases are 100% compostable and for every case purchased we will plant a tree on your behalf. <\/p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Our mission",
             "button_link": "",
             "button_style_secondary": false
           }
@@ -79,7 +79,7 @@
         "button"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "full_width": true
       }
     },
@@ -101,6 +101,7 @@
     },
     "collage": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "video": {
           "type": "video",
@@ -141,6 +142,7 @@
     },
     "video": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "Video",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
@@ -150,6 +152,7 @@
     },
     "multi_column": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "column1": {
           "type": "column",
