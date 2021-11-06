@@ -9,17 +9,10 @@
             "heading": "{{ product.title }}",
             "heading_size": "h1"
           }
-        },
-        "bc8516c1-54f3-465b-9972-383b48b4167a": {
-          "type": "text",
-          "settings": {
-            "text": "<p>{{ product.title }}<\/p>"
-          }
         }
       },
       "block_order": [
-        "163623933635fab337-0",
-        "bc8516c1-54f3-465b-9972-383b48b4167a"
+        "163623933635fab337-0"
       ],
       "settings": {
         "color_scheme": "background-1",
@@ -32,6 +25,11 @@
         "title": {
           "type": "title",
           "disabled": true,
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
           "settings": {
           }
         },
@@ -64,11 +62,6 @@
             "show_dynamic_checkout": true
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "share": {
           "type": "share",
           "settings": {
@@ -78,12 +71,12 @@
       },
       "block_order": [
         "title",
+        "description",
         "subtitle",
         "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
         "share"
       ],
       "settings": {
