@@ -7,8 +7,9 @@
     "colors_outline_button_labels": "#121212",
     "colors_background_1": "#1b395c",
     "colors_background_2": "#262626",
-    "type_header_font": "assistant_n4",
-    "type_body_font": "assistant_n4",
+    "type_header_font": "itc_charter_n4",
+    "heading_scale": 100,
+    "type_body_font": "ubuntu_n4",
     "social_instagram_link": "http:\/\/instagram.com\/postcardfromengland",
     "sections": {
       "announcement-bar": {
