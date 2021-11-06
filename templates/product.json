@@ -1,18 +1,30 @@
 {
   "sections": {
+    "163623933635fab337": {
+      "type": "rich-text",
+      "blocks": {
+        "163623933635fab337-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ product.title }}",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "163623933635fab337-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": false
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
+          "disabled": true,
           "settings": {
           }
         },
@@ -58,7 +70,6 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "subtitle",
         "price",
@@ -88,6 +99,7 @@
     }
   },
   "order": [
+    "163623933635fab337",
     "main",
     "product-recommendations"
   ]
