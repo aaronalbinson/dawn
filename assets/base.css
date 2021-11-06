@@ -2330,10 +2330,10 @@ body .product:not(.product--no-media):not(.featured-product) .product__media-wra
  max-width: 50%;
 }
 
-.grid--2-col-tablet .grid__item {
+.product__media-wrapper .grid--2-col-tablet .grid__item {
   display: none;
 }
 
-.grid--2-col-tablet .grid__item:first-child {
+.product__media-wrapper .grid--2-col-tablet .grid__item:first-child {
   display: block;
 }
