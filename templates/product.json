@@ -9,10 +9,17 @@
             "heading": "{{ product.title }}",
             "heading_size": "h1"
           }
+        },
+        "bc8516c1-54f3-465b-9972-383b48b4167a": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.title }}<\/p>"
+          }
         }
       },
       "block_order": [
-        "163623933635fab337-0"
+        "163623933635fab337-0",
+        "bc8516c1-54f3-465b-9972-383b48b4167a"
       ],
       "settings": {
         "color_scheme": "background-1",
