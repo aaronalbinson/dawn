@@ -7,10 +7,12 @@
     "colors_outline_button_labels": "#121212",
     "colors_background_1": "#ffffff",
     "colors_background_2": "#202020",
-    "type_header_font": "itc_charter_n4",
+    "type_header_font": "montserrat_n7",
     "heading_scale": 100,
-    "type_body_font": "ubuntu_n4",
-    "social_instagram_link": "http:\/\/instagram.com\/postcardfromengland",
+    "type_body_font": "montserrat_n5",
+    "accent_icons": "accent-2",
+    "social_instagram_link": "http:\/\/instagram.com\/compicase",
+    "favicon": "shopify:\/\/shop_images\/Group_7.png",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
