@@ -68,7 +68,7 @@
           "type": "button",
           "settings": {
             "button_label": "Our mission",
-            "button_link": "",
+            "button_link": "shopify:\/\/pages\/our-mission",
             "button_style_secondary": false
           }
         }
@@ -221,7 +221,7 @@
         "163623283521d22f03-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Group_10.png",
+        "image": "shopify:\/\/shop_images\/pexels-terje-sollie-230978.jpg",
         "height": "adapt",
         "color_scheme": "accent-1",
         "layout": "image_first"
