@@ -60,31 +60,24 @@
         "1636173889f4ea06af-0": {
           "type": "heading",
           "settings": {
-            "heading": "Connecting people offline"
+            "heading": "Protect your phone"
           }
         },
         "1636173889f4ea06af-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Our mission is to help people connect with the medium of a letter or a beautiful postcard.<\/p>"
-          }
-        },
-        "1636173889f4ea06af-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "text": "<p>Phone's are expensive, so this has to be top of the priority list for us. The cases are robust 5-feet drop tested for shock absorbance and have a raised rim design to protect the screen.<\/p>"
           }
         }
       },
       "block_order": [
         "1636173889f4ea06af-0",
-        "1636173889f4ea06af-1",
-        "1636173889f4ea06af-2"
+        "1636173889f4ea06af-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/eco-case-03.jpg",
         "height": "small",
-        "color_scheme": "background-2",
+        "color_scheme": "accent-1",
         "layout": "image_first"
       }
     },
@@ -94,27 +87,19 @@
         "16361739171f9fcff5-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text"
+            "heading": "Plant some trees"
           }
         },
         "16361739171f9fcff5-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "16361739171f9fcff5-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "text": "<p>We have partnered with Ecologi to ensure that every case purchased we can plant a tree. <\/p><p>Not only will your new case protect your phone but will contribute positively to our planet.<\/p>"
           }
         }
       },
       "block_order": [
         "16361739171f9fcff5-0",
-        "16361739171f9fcff5-1",
-        "16361739171f9fcff5-2"
+        "16361739171f9fcff5-1"
       ],
       "settings": {
         "height": "adapt",
