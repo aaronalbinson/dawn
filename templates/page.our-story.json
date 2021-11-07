@@ -165,6 +165,50 @@
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
+    },
+    "163625065461423a3f": {
+      "type": "multicolumn",
+      "blocks": {
+        "163625065461423a3f-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/eco-case-03.jpg",
+            "title": "Protect your phone",
+            "text": "<p>Phone's are expensive, so this has to be top of the priority list for us. The cases are robust 5-feet drop tested for shock absorbance and have a raised rim design to protect the screen.<\/p>"
+          }
+        },
+        "163625065461423a3f-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Responsible_tree_planting_V02.jpg",
+            "title": "Let's plant trees",
+            "text": "<p>We've partnered with Ecologi to ensure that every case purchased we can plant a tree.<\/p><p>Not only will your new case protect your phone but will contribute positively to our planet.<\/p>"
+          }
+        },
+        "163625065461423a3f-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-rodnae-productions-7782975_1.png",
+            "title": "A harmless product",
+            "text": "<p>We want to protect our devices while doing no harm to the planet. Our cases are made up of bioplastic and bamboo, so when you're finished using your case, you can pop it into your compost heap.<\/p><p>The colours on the design are printed with none toxic water based ink.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163625065461423a3f-0",
+        "163625065461423a3f-1",
+        "163625065461423a3f-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "square",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
     }
   },
   "order": [
@@ -173,6 +217,7 @@
     "1636173889f4ea06af",
     "16361739171f9fcff5",
     "1636246322605fa852",
-    "1636173828427203e6"
+    "1636173828427203e6",
+    "163625065461423a3f"
   ]
 }
