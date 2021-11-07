@@ -56,6 +56,7 @@
     },
     "1636173889f4ea06af": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "1636173889f4ea06af-0": {
           "type": "heading",
@@ -83,6 +84,7 @@
     },
     "16361739171f9fcff5": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "16361739171f9fcff5-0": {
           "type": "heading",
@@ -110,6 +112,7 @@
     },
     "1636246322605fa852": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "1636246322605fa852-0": {
           "type": "heading",
@@ -133,37 +136,6 @@
         "height": "adapt",
         "color_scheme": "accent-1",
         "layout": "image_first"
-      }
-    },
-    "1636173828427203e6": {
-      "type": "collage",
-      "blocks": {
-        "1636173828427203e6-0": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video",
-            "image_padding": false
-          }
-        },
-        "1636173828427203e6-1": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false,
-            "image_padding": false,
-            "secondary_background": false
-          }
-        }
-      },
-      "block_order": [
-        "1636173828427203e6-0",
-        "1636173828427203e6-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "desktop_layout": "left",
-        "mobile_layout": "collage"
       }
     },
     "163625065461423a3f": {
@@ -217,7 +189,6 @@
     "1636173889f4ea06af",
     "16361739171f9fcff5",
     "1636246322605fa852",
-    "1636173828427203e6",
     "163625065461423a3f"
   ]
 }
