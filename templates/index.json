@@ -204,21 +204,13 @@
         "163623283521d22f03-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "163623283521d22f03-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "shopify:\/\/pages\/contact"
+            "text": "<p>Not only will your new case protect your phone but will contribute positively to our planet.<\/p><p>We plant a tree for every case purchased through our website.<\/p>"
           }
         }
       },
       "block_order": [
         "163623283521d22f03-0",
-        "163623283521d22f03-1",
-        "163623283521d22f03-2"
+        "163623283521d22f03-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/pexels-terje-sollie-230978.jpg",
