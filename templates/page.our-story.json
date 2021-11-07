@@ -108,6 +108,33 @@
         "layout": "text_first"
       }
     },
+    "1636246322605fa852": {
+      "type": "image-with-text",
+      "blocks": {
+        "1636246322605fa852-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "A harmless product"
+          }
+        },
+        "1636246322605fa852-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We want to protect our devices while doing no harm to the planet. Our cases are made up of bioplastic and bamboo, so when you're finished using your case, you can pop it into your compost heap. <\/p><p>The colours on the design are printed with none toxic water based ink.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1636246322605fa852-0",
+        "1636246322605fa852-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-rodnae-productions-7782975_1.png",
+        "height": "adapt",
+        "color_scheme": "accent-1",
+        "layout": "image_first"
+      }
+    },
     "1636173828427203e6": {
       "type": "collage",
       "blocks": {
@@ -145,6 +172,7 @@
     "16361737822fc8013c",
     "1636173889f4ea06af",
     "16361739171f9fcff5",
+    "1636246322605fa852",
     "1636173828427203e6"
   ]
 }
