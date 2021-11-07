@@ -102,8 +102,9 @@
         "16361739171f9fcff5-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Responsible_tree_planting_V02.jpg",
         "height": "adapt",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "layout": "text_first"
       }
     },
