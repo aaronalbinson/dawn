@@ -18,6 +18,7 @@
         },
         "16361737822fc8013c-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Give customers details about the banner image(s) or content on the template."
           }
@@ -41,12 +42,14 @@
         "16361737822fc8013c-2"
       ],
       "settings": {
-        "image_height": "medium",
+        "image": "shopify:\/\/shop_images\/pexels-terje-sollie-230978.jpg",
+        "image_2": "shopify:\/\/shop_images\/Screenshot_2021-11-07_at_00.54.56.png",
+        "image_height": "small",
         "adapt_height_first_image": false,
-        "desktop_text_box_position": "center",
+        "desktop_text_box_position": "flex-end",
         "show_text_box": true,
         "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
