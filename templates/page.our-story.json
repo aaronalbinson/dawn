@@ -202,6 +202,42 @@
         "show_vendor": false,
         "show_rating": true
       }
+    },
+    "1636337030ccdf7398": {
+      "type": "rich-text",
+      "blocks": {
+        "1636337030ccdf7398-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "1636337030ccdf7398-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>New designs each month to suit your mood<\/p>"
+          }
+        },
+        "1636337030ccdf7398-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Choose your case",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1636337030ccdf7398-0",
+        "1636337030ccdf7398-1",
+        "1636337030ccdf7398-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
     }
   },
   "order": [
@@ -212,6 +248,7 @@
     "1636246322605fa852",
     "163625065461423a3f",
     "1636251323a161c88f",
-    "163625329578b96b26"
+    "163625329578b96b26",
+    "1636337030ccdf7398"
   ]
 }
