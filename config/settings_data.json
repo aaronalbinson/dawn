@@ -25,7 +25,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Did you know... we plant a tree for every case purchased 🌳",
+              "text": "Did you know... we plant a tree for every case purchased 🌳 Read our mission statement",
               "color_scheme": "accent-1",
               "link": "shopify:\/\/pages\/our-mission"
             }
