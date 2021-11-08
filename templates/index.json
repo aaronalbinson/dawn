@@ -198,7 +198,7 @@
         "163623283521d22f03-0": {
           "type": "heading",
           "settings": {
-            "heading": "Plant a tree with every order"
+            "heading": "Plant a tree with every case"
           }
         },
         "163623283521d22f03-1": {
@@ -218,6 +218,33 @@
         "color_scheme": "accent-1",
         "layout": "image_first"
       }
+    },
+    "1636335609226fc00c": {
+      "type": "image-with-text",
+      "blocks": {
+        "1636335609226fc00c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Protect your phone"
+          }
+        },
+        "1636335609226fc00c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With enhanced durability & shock resistance, the CompiCase is 5-feet drop tested. Designed with a raised rim to protect the screen.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1636335609226fc00c-0",
+        "1636335609226fc00c-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_36_1.jpg",
+        "height": "adapt",
+        "color_scheme": "accent-1",
+        "layout": "text_first"
+      }
     }
   },
   "order": [
@@ -227,6 +254,7 @@
     "collage",
     "video",
     "multi_column",
-    "163623283521d22f03"
+    "163623283521d22f03",
+    "1636335609226fc00c"
   ]
 }
