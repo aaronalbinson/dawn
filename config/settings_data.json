@@ -29,10 +29,28 @@
               "color_scheme": "accent-1",
               "link": "shopify:\/\/pages\/our-mission"
             }
+          },
+          "32475472-6333-4575-b40b-b1fb021ee507": {
+            "type": "announcement",
+            "settings": {
+              "text": "Welcome to our store",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          },
+          "4e769cee-f50e-4afc-b52f-7f9199fa15ec": {
+            "type": "announcement",
+            "settings": {
+              "text": "Welcome to our store",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
           }
         },
         "block_order": [
-          "announcement-bar-0"
+          "announcement-bar-0",
+          "32475472-6333-4575-b40b-b1fb021ee507",
+          "4e769cee-f50e-4afc-b52f-7f9199fa15ec"
         ],
         "settings": {
         }
