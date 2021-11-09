@@ -2432,7 +2432,7 @@ body .product:not(.product--no-media):not(.featured-product) .product__media-wra
   }
 
   .announcement-bar_viewport {
-    width: 100%;
+    width: 100vw;
     height: 50px;
     display: flex;
     overflow-x: scroll;
