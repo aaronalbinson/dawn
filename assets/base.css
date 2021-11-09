@@ -2343,9 +2343,8 @@ body .product:not(.product--no-media):not(.featured-product) .product__media-wra
 .product__media-list .grid__item:first-child {
   display: block;
 }
-
   
-#shopify-section-announcement-bar {
+.announcement-bar_viewport {
   background-color: #00778b;
   display: flex;
   width: 100vw;
