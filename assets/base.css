@@ -2441,7 +2441,7 @@ body .product:not(.product--no-media):not(.featured-product) .product__media-wra
     scroll-snap-type: x mandatory;
   }
 
-  .carousel__slide {
+  .announcement-bar  {
     position: relative;
     flex: 0 0 100%;
     width: 100%;
@@ -2450,11 +2450,11 @@ body .product:not(.product--no-media):not(.featured-product) .product__media-wra
     opacity: 1;
   }
 
-  .carousel__slide:nth-child(even) {
+  .announcement-bar:nth-child(even) {
     background-color: #99f;
   }
 
-  .carousel__slide:before {
+  .announcement-bar:before {
     content: counter(item);
     position: absolute;
     top: 50%;
@@ -2475,7 +2475,7 @@ body .product:not(.product--no-media):not(.featured-product) .product__media-wra
 }
 
 @media (hover: hover) and (max-width: 749px) {
-  .carousel__slide {
+  .announcement-bar {
     animation-name: op;
     animation-timing-function: linear;
     animation-duration: 6s;
@@ -2489,18 +2489,18 @@ body .product:not(.product--no-media):not(.featured-product) .product__media-wra
     animation-iteration-count: infinite;
   }
 
-  .carousel__slide:last-child .carousel__snapper {
+  .announcement-bar:last-child .carousel__snapper {
     animation-name: tostart, snap;
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .carousel__snapper, .carousel__slide {
+  .carousel__snapper, .announcement-bar {
     animation-name: none;
   }
 }
 
 .carousel:hover .carousel__snapper,
-.carousel:focus-within .carousel__snapper, .carousel:hover .carousel__slide, .carousel:focus-within .carousel__slide {
+.carousel:focus-within .carousel__snapper, .carousel:hover .announcement-bar, .carousel:focus-within .announcement-bar {
   animation-name: none;
 }
