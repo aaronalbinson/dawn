@@ -2423,11 +2423,6 @@ body .product:not(.product--no-media):not(.featured-product) .product__media-wra
     scroll-snap-align: center;
   }
 }
-  
-#shopify-section-announcement-bar * {
-  scrollbar-color: transparent transparent; /* thumb and track color */
-  scrollbar-width: 0px;
-}
 
 #shopify-section-announcement-bar *::-webkit-scrollbar {
   width: 0;
