@@ -2431,7 +2431,7 @@ body .product:not(.product--no-media):not(.featured-product) .product__media-wra
     perspective: 100px;
   }
 
-  .carousel__viewport {
+  .announcement-bar_viewport {
     width: 100%;
     height: 50px;
     display: flex;
