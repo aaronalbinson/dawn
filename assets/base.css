@@ -2464,7 +2464,7 @@ body .product:not(.product--no-media):not(.featured-product) .product__media-wra
     font-size: 2em;
   }
 
-  .carousel__snapper {
+  .announcement-bar_snapper {
     position: absolute;
     top: 0;
     left: 0;
@@ -2482,7 +2482,7 @@ body .product:not(.product--no-media):not(.featured-product) .product__media-wra
     animation-iteration-count: infinite;
   }
   
-  .carousel__snapper {
+  .announcement-bar_snapper {
     animation-name: tonext, snap;
     animation-timing-function: ease;
     animation-duration: 6s;
@@ -2495,12 +2495,12 @@ body .product:not(.product--no-media):not(.featured-product) .product__media-wra
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .carousel__snapper, .announcement-bar {
+  .announcement-bar_snapper, .announcement-bar {
     animation-name: none;
   }
 }
 
-.carousel:hover .carousel__snapper,
-.carousel:focus-within .carousel__snapper, .carousel:hover .announcement-bar, .carousel:focus-within .announcement-bar {
+#shopify-section-announcement-bar:hover .announcement-bar_snapper,
+#shopify-section-announcement-bar:focus-within .announcement-bar_snapper, #shopify-section-announcement-bar:hover .announcement-bar, #shopify-section-announcement-bar:focus-within .announcement-bar {
   animation-name: none;
 }
