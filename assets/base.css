@@ -2450,7 +2450,7 @@ body .product:not(.product--no-media):not(.featured-product) .product__media-wra
   }
 
   .announcement-bar:before {
-    content: counter(item);
+    content: ' ';
     position: absolute;
     top: 50%;
     left: 50%;
