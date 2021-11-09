@@ -2445,13 +2445,8 @@ body .product:not(.product--no-media):not(.featured-product) .product__media-wra
     position: relative;
     flex: 0 0 100%;
     width: 100%;
-    background-color: #f99;
     counter-increment: item;
     opacity: 1;
-  }
-
-  .announcement-bar:nth-child(even) {
-    background-color: #99f;
   }
 
   .announcement-bar:before {
