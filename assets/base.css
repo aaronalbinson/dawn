@@ -2490,7 +2490,7 @@ body .product:not(.product--no-media):not(.featured-product) .product__media-wra
     animation-iteration-count: infinite;
   }
 
-  .announcement-bar:last-child .carousel__snapper {
+  .announcement-bar:last-child .announcement-bar_snapper {
     animation-name: tostart, snap;
   }
 }
