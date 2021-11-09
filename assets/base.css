@@ -2424,15 +2424,15 @@ body .product:not(.product--no-media):not(.featured-product) .product__media-wra
   }
 }
 
-#shopify-section-announcement-bar *::-webkit-scrollbar {
+#shopify-section-announcement-bar::-webkit-scrollbar {
   width: 0;
 }
 
-#shopify-section-announcement-bar *::-webkit-scrollbar-track {
+#shopify-section-announcement-bar::-webkit-scrollbar-track {
   background: transparent;
 }
 
-#shopify-section-announcement-bar *::-webkit-scrollbar-thumb {
+#shopify-section-announcement-bar::-webkit-scrollbar-thumb {
   background: transparent;
   border: none;
 }
