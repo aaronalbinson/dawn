@@ -2456,7 +2456,7 @@ body .product:not(.product--no-media):not(.featured-product) .product__media-wra
     counter-reset: item;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
-    justify-content: center;
+    justify-content: unset;
   }
 
   .announcement-bar  {
