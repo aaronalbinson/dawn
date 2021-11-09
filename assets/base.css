@@ -2465,6 +2465,7 @@ body .product:not(.product--no-media):not(.featured-product) .product__media-wra
   }
 
   .announcement-bar_snapper {
+    display: block;
     position: absolute;
     top: 0;
     left: 0;
