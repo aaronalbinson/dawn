@@ -1,14 +1,37 @@
 {
   "sections": {
     "banner": {
-      "type": "main-collection-banner"
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false
+      }
     },
     "product-grid": {
-      "type": "main-collection-product-grid"
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "collapse_on_larger_devices": false
+      }
+    },
+    "16373650204d230ee4": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% comment %}\n{% assign collection = collections.your-collection-handle-here %}\nUse the assign statement outside of this comment block at the top of your template.\n{% endcomment %}\n{% paginate collection.products by 100 %}\n<form action=\"\/cart\" method=\"post\">\n  {% if collection.products_count > 0 %}\n    <div>\n      <h1>{% if template contains 'page' %}{{ page.title }}{% else %}{{ collection.title }}{% endif %}<\/h1>\n      <input type=\"submit\" value=\"Add to the cart\" \/>\n    <\/div>\n  {% else %}\n    <h1>{% if template contains 'page' %}{{ page.title }}{% else %}{{ collection.title }}{% endif %}<\/h1>\n  {% endif %}\n  {% if template contains 'page' and page.content.size > 0 %}\n    <div class=\"rte\">\n      {{ page.content }}\n    <\/div>  \n  {% elsif collection.description.size > 0 %}\n    <div class=\"rte\">\n      {{ collection.description }}\n    <\/div>\n  {% endif %}\n  {% if collection.products_count > 0 %}\n    <table>\n      <tbody>\n      {% for product in collection.products %}\n        {% if product.available %}\n          {% for variant in product.variants %}\n            {% if variant.available %}\n              <tr class=\"{% cycle 'pure-table-odd', '' %}\">\n                <td>\n                  <a href=\"{{ variant.url | collection }}\">\n                    <img src=\"{{ variant.image | default: product.featured_image | img_url: 'small' }}\" alt=\"{{ variant.title | escape }}\" \/>\n                  <\/a>\n                <\/td>\n                <td>\n                  <a href=\"{{ variant.url | collection }}\">\n                   {{ product.title }}{% unless variant.title contains 'Default' %} - {{ variant.title }}{% endunless %}{% unless variant.sku == blank %} - {{ variant.sku }}{% endunless %}\n                  <\/a>\n                <\/td>\n                <td>\n                   {{ variant.price | money }}\n                <\/td>\n                <td style=\"text-align:right;\">\n                  <input name=\"updates[{{ variant.id }}]\" onfocus=\"this.select()\" class=\"quantity field\" min=\"0\" {% unless variant.inventory_management == blank or variant.inventory_policy == 'continue' %} max=\"{{ variant.inventory_quantity }}\" {% endunless %} type=\"text\" value=\"0\" tabindex=\"1\" \/>\n                <\/td>\n              <\/tr>\n            {% endif %}\n          {% endfor %}\n        {% endif %}\n      {% endfor %}\n      <\/tbody>\n    <\/table>\n    <div>\n      <input type=\"submit\" value=\"Add to the cart\" \/>\n    <\/div>\n  {% else %}\n    <p>There are no products in this view.<\/p>\n  {% endif %}\n<\/form>\n{% endpaginate %}\n{% if collection.products_count > 0 %}\n<script>\njQuery(function($) {\n  $('table .quantity:first').focus();\n  $('[max]').change(function() {\n    var max = parseInt($(this).attr('max'), 10);\n    var value = parseInt($(this).val(), 10) || 0;\n    if (value > max) { \n      alert('We only have ' + max + ' of this item in stock');\n      $(this).val(max); \n    }    \n  });\n});\n<\/script>\n{% endif %}"
+      }
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "product-grid",
+    "16373650204d230ee4"
   ]
 }
