@@ -253,6 +253,11 @@
         "color_scheme": "accent-1",
         "layout": "text_first"
       }
+    },
+    "pagefly-home": {
+      "type": "pagefly-home",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -263,6 +268,7 @@
     "video",
     "multi_column",
     "163623283521d22f03",
-    "1636335609226fc00c"
+    "1636335609226fc00c",
+    "pagefly-home"
   ]
 }
