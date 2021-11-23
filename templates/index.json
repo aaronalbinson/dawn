@@ -1,7 +1,13 @@
 {
   "sections": {
+    "pagefly-home": {
+      "type": "pagefly-home",
+      "settings": {
+      }
+    },
     "image_banner": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -253,14 +259,10 @@
         "color_scheme": "accent-1",
         "layout": "text_first"
       }
-    },
-    "pagefly-home": {
-      "type": "pagefly-home",
-      "settings": {
-      }
     }
   },
   "order": [
+    "pagefly-home",
     "image_banner",
     "rich_text",
     "featured_products",
@@ -268,7 +270,6 @@
     "video",
     "multi_column",
     "163623283521d22f03",
-    "1636335609226fc00c",
-    "pagefly-home"
+    "1636335609226fc00c"
   ]
 }
