@@ -28,6 +28,13 @@
             "text_style": "subtitle"
           }
         },
+        "fa46ec87-428c-4296-a4bf-506a9866b3fd": {
+          "type": "shopify:\/\/apps\/upload-lift-image-upload\/blocks\/app-block\/3c98bdcb-7587-4ade-bfe4-7d8af00d05ca",
+          "settings": {
+            "product": "{{product}}",
+            "field": ""
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -71,6 +78,7 @@
         "title",
         "description",
         "subtitle",
+        "fa46ec87-428c-4296-a4bf-506a9866b3fd",
         "price",
         "c46ce5c8-e1f5-4be4-b052-d20be2b46c28",
         "variant_picker",
