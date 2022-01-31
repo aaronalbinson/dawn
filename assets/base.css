@@ -2347,7 +2347,7 @@ body .product:not(.product--no-media):not(.featured-product) .product__media-wra
 .announcement-bar_viewport {
   background-color: #262626;
   display: flex;
-  width: 100vw;
+  max-width: 100vw;
   justify-content: center;
 }
 
