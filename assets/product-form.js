@@ -66,9 +66,6 @@ if (!customElements.get('product-form')) {
 var usersPhone = localStorage.getItem('usersPhone');
 var option = document.getElementById("usersModel").selectedIndex;
 
-if { 
-}
-
 window.addEventListener("load", function load(event) {
     var optionToClick = document.getElementsByName("options[Model]")[option].children[2]; //choose any of the children
     optionToClick.selected = true;
