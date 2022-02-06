@@ -65,7 +65,7 @@ if (!customElements.get('product-form')) {
 
 window.addEventListener("load", function load(event) {
   	var option = document.getElementById("usersModel").selectedIndex;
-    var optionToClick = document.getElementsByName("options[Model]")[option].children[2]; //choose any of the children
+    var optionToClick = document.getElementsByName("options[Model]")[0].children[option]; //choose any of the children
     optionToClick.selected = true;
     simulateClick(optionToClick); // manual click simulation 
 });
