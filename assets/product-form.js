@@ -62,3 +62,21 @@ if (!customElements.get('product-form')) {
     }
   });
 }
+
+window.addEventListener("load", function load(event) {
+    var optionToClick = document.getElementsByName("options[Model]")[0].children[2]; //choose any of the children
+    optionToClick.selected = true;
+    simulateClick(optionToClick); // manual click simulation 
+});
+
+function simulateClick(item) {
+  item.dispatchEvent(new PointerEvent('pointerdown', {bubbles: true}));
+  item.dispatchEvent(new MouseEvent('mousedown', {bubbles: true}));
+  item.dispatchEvent(new PointerEvent('pointerup', {bubbles: true}));
+  item.dispatchEvent(new MouseEvent('mouseup', {bubbles: true}));
+  item.dispatchEvent(new MouseEvent('mouseout', {bubbles: true}));
+  item.dispatchEvent(new MouseEvent('click', {bubbles: true}));
+  item.dispatchEvent(new Event('change', {bubbles: true}));
+
+  return true;
+}
