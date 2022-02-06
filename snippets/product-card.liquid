@@ -69,6 +69,8 @@
             assign featured_media_aspect_ratio = 1
           endif
         -%}
+      
+      {{ product_card_product.images[5] }}
 
         <div{% if add_image_padding %} class="card__media-full-spacer"{% endif %}>
           <div class="media media--transparent media--{{ media_size }} media--hover-effect"
