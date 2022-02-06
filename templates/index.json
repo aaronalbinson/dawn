@@ -121,6 +121,33 @@
         "show_rating": false
       }
     },
+    "163623283521d22f03": {
+      "type": "image-with-text",
+      "blocks": {
+        "163623283521d22f03-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plant a tree with every case"
+          }
+        },
+        "163623283521d22f03-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Not only will your new case protect your phone but will contribute positively to our planet.<\/p><p>We plant a tree for every case purchased through our website.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "163623283521d22f03-0",
+        "163623283521d22f03-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-terje-sollie-230978.jpg",
+        "height": "adapt",
+        "color_scheme": "accent-1",
+        "layout": "image_first"
+      }
+    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -140,14 +167,24 @@
             "image_padding": false,
             "color_scheme": "accent-2"
           }
+        },
+        "5068759c-6b7e-47d9-9197-7e25d3d466b4": {
+          "type": "product",
+          "settings": {
+            "product": "electric-eco-phone-case",
+            "second_image": true,
+            "image_padding": false,
+            "secondary_background": false
+          }
         }
       },
       "block_order": [
         "product",
-        "collection"
+        "collection",
+        "5068759c-6b7e-47d9-9197-7e25d3d466b4"
       ],
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "",
         "desktop_layout": "left",
         "mobile_layout": "collage"
       }
@@ -204,33 +241,6 @@
         "swipe_on_mobile": false
       }
     },
-    "163623283521d22f03": {
-      "type": "image-with-text",
-      "blocks": {
-        "163623283521d22f03-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Plant a tree with every case"
-          }
-        },
-        "163623283521d22f03-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Not only will your new case protect your phone but will contribute positively to our planet.<\/p><p>We plant a tree for every case purchased through our website.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "163623283521d22f03-0",
-        "163623283521d22f03-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/pexels-terje-sollie-230978.jpg",
-        "height": "adapt",
-        "color_scheme": "accent-1",
-        "layout": "image_first"
-      }
-    },
     "1636335609226fc00c": {
       "type": "image-with-text",
       "blocks": {
@@ -273,10 +283,10 @@
     "16441083803a2849c5",
     "rich_text",
     "featured_products",
+    "163623283521d22f03",
     "collage",
     "video",
     "multi_column",
-    "163623283521d22f03",
     "1636335609226fc00c"
   ]
 }
