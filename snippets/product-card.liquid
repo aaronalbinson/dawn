@@ -71,6 +71,10 @@
         -%}
       
       {% for image in product_card_product.images %}
+      <div{% if add_image_padding %} class="card__media-full-spacer"{% endif %}>
+          <div class="media media--transparent media--{{ media_size }} media--hover-effect"
+            {% if media_size == 'adapt' and product_card_product.featured_media %} style="padding-bottom: {{ 1 | divided_by: featured_media_aspect_ratio | times: 100 }}%;"{% endif %}
+          >
         <img
               srcset="{%- if image.width >= 165 -%}{{ image | img_url: '165x' }} 165w,{%- endif -%}
                 {%- if image.width >= 360 -%}{{ image | img_url: '360x' }} 360w,{%- endif -%}
@@ -87,6 +91,8 @@
               width="{{ image.width }}"
               height="{{ image.height }}"
             >
+        </div>
+      </div>
       {% endfor %}
 
         <div{% if add_image_padding %} class="card__media-full-spacer"{% endif %}>
