@@ -5,6 +5,12 @@
       "settings": {
       }
     },
+    "1644164943bdaf7d39": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"modelChoice\">\n        <select id=\"usersModel\" class=\"select__select\">\n          <option value=\"iPhone 11\">\n            iPhone 11\n          <\/option>\n          <option value=\"iPhone 11 Pro\">\n            iPhone 11 Pro\n          <\/option>\n          <option value=\"iPhone 11 Pro Max\">\n            iPhone 11 Pro Max\n          <\/option>\n          <option value=\"iPhone 12\">\n            iPhone 12\n          <\/option>\n          <option value=\"iPhone 12 Mini\">\n            iPhone 12 Mini\n          <\/option>\n          <option value=\"iPhone 12 Pro\">\n            iPhone 12 Pro\n          <\/option>\n          <option value=\"iPhone 12 Pro Max\">\n            iPhone 12 Pro Max\n          <\/option>\n          <option value=\"Samsung Galaxy S20\">\n            Samsung Galaxy S20\n          <\/option>\n          <option value=\"Samsung Galaxy S20 Plus\">\n            Samsung Galaxy S20 Plus\n          <\/option>\n          <option value=\"Samsung Galaxy S20 Ultra\">\n            Samsung Galaxy S20 Ultra\n          <\/option>\n          <option value=\"Samsung Galaxy S21\">\n            Samsung Galaxy S21\n          <\/option>\n          <option value=\"Samsung Galaxy S21 Plus\">\n            Samsung Galaxy S21 Plus\n          <\/option>\n          <option value=\"Samsung Galaxy S21 Ultra\">\n            Samsung Galaxy S21 Ultra\n          <\/option>\n          <option value=\"iPhone SE2\">\n            iPhone SE2\n          <\/option>\n        <\/select>\n      <\/div>"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "disabled": true,
@@ -285,6 +291,7 @@
   },
   "order": [
     "pagefly-home",
+    "1644164943bdaf7d39",
     "image_banner",
     "16441083803a2849c5",
     "rich_text",
