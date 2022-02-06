@@ -693,10 +693,10 @@
 {%- endif -%}
         
 <script>
-  document.getElementById("select-samsung-s20").addEventListener("click", myFunction);
+  document.getElementById("usersModel").addEventListener("change", myFunction);
 
   function myFunction() {
-    localStorage.setItem('usersPhone', 'Samsung Galaxy S20');
+    localStorage.setItem('usersPhone', document.getElementById("usersModel").value);
     alert (localStorage.getItem('usersPhone'));
   }
 </script>
