@@ -157,9 +157,10 @@
       var optionClassOption = optionClass.concat(option);
       console.log(optionClassOption);
       
-      if (document.getElementById(optionClassOption)) {
-        var selectedPhoneElement = document.getElementById(optionClassOption);
-  	    selectedPhoneElement.classList.add("showMe");
+      var selectedPhoneElements = document.getElementsByClassName(optionClassOption);
+
+      for(var i = 0; i < selectedPhoneElements.length; i++){
+          selectedPhoneElements[i].classList.add("showMe");
       }
       
     </script>
