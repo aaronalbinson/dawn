@@ -123,21 +123,12 @@
     },
     "collage": {
       "type": "collage",
-      "disabled": true,
       "blocks": {
-        "video": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video",
-            "image_padding": false
-          }
-        },
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
-            "second_image": false,
+            "product": "green-leaf-eco-phone-case",
+            "second_image": true,
             "image_padding": false,
             "secondary_background": false
           }
@@ -152,7 +143,6 @@
         }
       },
       "block_order": [
-        "video",
         "product",
         "collection"
       ],
