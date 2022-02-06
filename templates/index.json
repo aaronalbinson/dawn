@@ -54,6 +54,22 @@
         "show_text_below": true
       }
     },
+    "16441083803a2849c5": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "collection": "classic-colours",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -264,6 +280,7 @@
   "order": [
     "pagefly-home",
     "image_banner",
+    "16441083803a2849c5",
     "rich_text",
     "featured_products",
     "collage",
