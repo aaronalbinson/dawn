@@ -136,9 +136,9 @@
         "collection": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "classic-colours",
             "image_padding": false,
-            "color_scheme": "background-1"
+            "color_scheme": "accent-2"
           }
         }
       },
