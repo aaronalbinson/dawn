@@ -63,10 +63,8 @@ if (!customElements.get('product-form')) {
   });
 }
 
-var usersPhone = localStorage.getItem('usersPhone');
-var option = document.getElementById("usersModel").selectedIndex;
-
 window.addEventListener("load", function load(event) {
+  	var option = document.getElementById("usersModel").selectedIndex;
     var optionToClick = document.getElementsByName("options[Model]")[option].children[2]; //choose any of the children
     optionToClick.selected = true;
     simulateClick(optionToClick); // manual click simulation 
