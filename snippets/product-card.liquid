@@ -16,6 +16,17 @@
 
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
 
+
+<style>
+  .product-card-image {
+    display: none;
+  }
+  
+  .product-card-image.showMe {
+  	display: block;
+  }
+</style>
+
 <div class="card-wrapper">
   <div class="card-information">
     <div class="card-information__wrapper">
