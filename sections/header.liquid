@@ -698,7 +698,8 @@
 
   function myFunction() {
     localStorage.setItem('usersPhone', document.getElementById("usersModel").value);
-    alert (localStorage.getItem('usersPhone'));
+    alert ("Your default phone is now the " + localStorage.getItem('usersPhone'));
+    location.reload();
   }
 </script>
 
