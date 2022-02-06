@@ -70,7 +70,10 @@
           endif
         -%}
       
-      {{ product_card_product.images[5] }}
+      {% for image in product_card_product.images %}
+        {{ image.src  }}
+        {{ image }}
+      {% endfor %}
 
         <div{% if add_image_padding %} class="card__media-full-spacer"{% endif %}>
           <div class="media media--transparent media--{{ media_size }} media--hover-effect"
