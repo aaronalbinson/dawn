@@ -409,7 +409,7 @@
           <option value="iPhone 11 Pro">
             iPhone 11 Pro
           </option>
-          <option value="iPhone 11 Pro Max" selected="selected">
+          <option value="iPhone 11 Pro Max">
             iPhone 11 Pro Max
           </option>
           <option value="iPhone 12">
@@ -693,6 +693,7 @@
 {%- endif -%}
         
 <script>
+  localStorage.getItem('usersPhone') && (document.getElementById("usersModel").value = localStorage.getItem('usersPhone'));
   document.getElementById("usersModel").addEventListener("change", myFunction);
 
   function myFunction() {
