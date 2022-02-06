@@ -14,15 +14,6 @@
 <noscript>{{ 'component-cart-notification.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-cart-items.css' | asset_url | stylesheet_tag }}</noscript>
 
-<script>
-  document.getElementById("select-samsung-s20").addEventListener("click", myFunction);
-
-  function myFunction() {
-    localStorage.setItem('usersPhone', 'Samsung Galaxy S20');
-    alert (localStorage.getItem('usersPhone'));
-  }
-</script>
-
 <style>
   header-drawer {
     justify-self: start;
@@ -656,6 +647,15 @@
     }
   </script>
 {%- endif -%}
+        
+<script>
+  document.getElementById("select-samsung-s20").addEventListener("click", myFunction);
+
+  function myFunction() {
+    localStorage.setItem('usersPhone', 'Samsung Galaxy S20');
+    alert (localStorage.getItem('usersPhone'));
+  }
+</script>
 
 {% schema %}
 {
