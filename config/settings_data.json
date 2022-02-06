@@ -32,11 +32,10 @@
           },
           "32475472-6333-4575-b40b-b1fb021ee507": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Welcome to our store",
+              "text": "Use bemyvalentine for 10% off",
               "color_scheme": "accent-1",
-              "link": ""
+              "link": "shopify:\/\/collections\/love"
             }
           },
           "4e769cee-f50e-4afc-b52f-7f9199fa15ec": {
