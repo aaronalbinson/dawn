@@ -720,10 +720,17 @@
         
 <script>
   localStorage.getItem('usersPhone') && (document.getElementById("usersModel").value = localStorage.getItem('usersPhone'));
-  document.getElementById("usersModel").addEventListener("change", myFunction);
+  document.getElementById("usersModel").addEventListener("change", updatePhone);
+  document.getElementById("usersModel-page").addEventListener("change", updatePhone1);
+  
 
-  function myFunction() {
+  function updatePhone() {
     localStorage.setItem('usersPhone', document.getElementById("usersModel").value);
+    alert ("Your default phone is now the " + localStorage.getItem('usersPhone'));
+    location.reload();
+  }
+  function updatePhone1() {
+    localStorage.setItem('usersPhone', document.getElementById("usersModel-page").value);
     alert ("Your default phone is now the " + localStorage.getItem('usersPhone'));
     location.reload();
   }
