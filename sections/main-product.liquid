@@ -514,9 +514,12 @@
 </script>
   
 <script>
-  if (localStorage.getItem('usersPhone')) {
-  	document.getElementsByName("options[Model]")[0].value = localStorage.getItem('usersPhone');
-  }
+  
+  setTimeout(function(){
+	if (localStorage.getItem('usersPhone')) {
+  		document.getElementsByName("options[Model]")[0].value = localStorage.getItem('usersPhone');
+  	}
+  }, 500); 
 </script>
 
 {% schema %}
