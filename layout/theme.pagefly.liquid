@@ -4,7 +4,7 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
 {% endcomment %}
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
-  <head>
+  <head>{% render 'pagefly-head' %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -126,6 +126,16 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
     {%- endif -%}
 
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-80QTRNZCZ7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-80QTRNZCZ7');
+    </script>
   </head>
 
   <body class="gradient"><div class="pagefly-container">{{ content_for_layout }}</div></body>
